@@ -30,7 +30,7 @@ This is because GitHub pages doesn't include the `jekyll-scholar` plugin.
 
 Including citations with your markdown files or notebooks is done in the following
 way.
-
+<!--
 1. Modify the file in `_bibliography/references.bib`. This has a few sample citations
 in bibtex form. Update as you wish!
 2. In your content, add the following text to include a citation
@@ -39,7 +39,6 @@ in bibtex form. Update as you wish!
    {% raw %}{% cite bibtex_shortname %}{% endraw %}
    ```
    
-   <!--
    For example, this text: `{% raw %}{% cite holdgraf_evidence_2014 %}{% endraw %}` generates this citation: {% cite holdgraf_evidence_2014 %} 
    
    You can also include multiple citations in one go, like so:

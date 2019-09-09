@@ -39,7 +39,8 @@ in bibtex form. Update as you wish!
    {% raw %}{% cite bibtex_shortname %}{% endraw %}
    ```
    
-   /* For example, this text: `{% raw %}{% cite holdgraf_evidence_2014 %}{% endraw %}` generates this citation: {% cite holdgraf_evidence_2014 %} */
+   <!--
+   For example, this text: `{% raw %}{% cite holdgraf_evidence_2014 %}{% endraw %}` generates this citation: {% cite holdgraf_evidence_2014 %} 
    
    You can also include multiple citations in one go, like so:
    
@@ -63,5 +64,4 @@ see the Bibliography generated below!
 
 ## References
 
-/* {% bibliography --cited %} */
-
+{% bibliography --cited %} -->
